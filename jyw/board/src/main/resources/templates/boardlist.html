@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th ="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>게시물 리스트 페이지</title>
@@ -23,9 +23,11 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>글제목입니다.</td>
+                <tr th:each="board : ${list}">
+                    <td th:text="${board.id}">1</td>
+                    <td>
+                        <a th:text="${board.title}" th:href="@{/board/view(id=${board.id})}"></a>
+                    </td>
 
                 </tr>
             </tbody>
