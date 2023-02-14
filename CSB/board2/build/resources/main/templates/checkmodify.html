@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 상세 페이지</title>
+</head>
+<body>
+
+    <form th:action="@{/board/modify/{id}(id=${board.id})}" method="post">
+        <textarea name="password"></textarea>
+        <button type="submit">입력</button>
+    </form>
+
+</body>
+</html>
