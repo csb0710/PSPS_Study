@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="board" target="11" />
+      <module name="board.main" target="11" />
+      <module name="board.test" target="11" />
+      <module name="jyw.board" target="17" />
+      <module name="jyw.board.main" target="17" />
+      <module name="jyw.board.test" target="17" />
+      <module name="YWJ.board" target="17" />
+      <module name="YWJ.board.main" target="17" />
+      <module name="YWJ.board.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
